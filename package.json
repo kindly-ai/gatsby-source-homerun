@@ -17,6 +17,10 @@
   ],
   "author": "Nikolai R Kristiansen <nikolaik@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/convertelligence/gatsby-source-homerun",
+    "type": "git"
+  }
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
