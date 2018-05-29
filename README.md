@@ -10,7 +10,7 @@ Based on [gatsby-source-lever](https://github.com/gatsbyjs/gatsby/tree/master/pa
 ## Install
 
 ```bash
-yarn add -D gatsby-source-homerun
+yarn add gatsby-source-homerun
 ```
 
 ## How to use
