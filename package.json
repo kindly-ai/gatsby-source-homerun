@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-source-homerun",
+  "version": "1.0.0",
+  "description": "Gatsby source plugin for building websites using Homerun.co as a data source",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier ./src/** --write",
+    "build": "babel src --out-dir . --ignore __tests__",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore __tests__"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin"
+  ],
+  "author": "Nikolai R Kristiansen <nikolaik@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-runtime": "6.26.0",
+    "cross-env": "5.1.6",
+    "jest": "23.0.1",
+    "prettier": "1.13.0"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "deep-map-keys": "1.2.0"
+  },
+  "prettier": {
+    "printWidth": 100
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
