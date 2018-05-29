@@ -55,10 +55,8 @@ exports.sourceNodes = async (
   // Standardizes ids & cleans keys
   entities = normalize.standardizeKeys(entities);
 
-  console.log(entities[0].activeTime);
   // Converts to use only UTC dates
   entities = normalize.standardizeDates(entities);
-  console.log(entities[0].activeTime);
 
   // creates Gatsby IDs for each entity
   entities = normalize.createGatsbyIds(createNodeId, entities);
