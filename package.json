@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-homerun",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gatsby source plugin for building websites using Homerun.co as a data source",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "repository": {
     "url": "https://github.com/convertelligence/gatsby-source-homerun",
     "type": "git"
-  }
+  },
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
