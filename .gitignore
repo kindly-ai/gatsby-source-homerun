@@ -7,6 +7,7 @@ test/**/public
 
 # IDE specific
 .vscode/
+.idea/
 
 # Package managers
 yarn.lock
